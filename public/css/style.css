@@ -1,0 +1,84 @@
+.index *{
+    margin: 0;
+    padding: 0;
+  }
+  
+  .index nav{
+      font-family: 'Onest', sans-serif;    
+      background-color: black;
+      height: 30px;
+  }
+  
+  .index img{
+    height: 50px;
+    position: relative;
+    bottom: 20px;
+  }
+  
+  .index nav ul{  
+  font-size: 7px;
+    display: flex;
+      list-style: none;
+      font-family: 'Onest', sans-serif;
+  
+  }
+  .index nav ul li{
+      padding: 10px 20px;
+      color: aliceblue;
+  }
+  
+  .index a{
+      color: white;
+      text-decoration: none;
+  }
+  
+  .box{
+    display: inline-block;
+    position: relative;
+    top:10px;
+    bottom: 50px;
+    color: black;
+    background-color: white;
+     justify-content: center;
+     align-items: center;
+     padding: 20px;
+     height:500px;
+     width:550px;
+     border: 4px solid white;
+     border-radius: 20px;
+     font-size: 30px;
+     font-family: 'Onest', sans-serif;
+  }
+  .total{
+    display: inline-block;
+  
+  }
+  #box1{
+    background-image: url('./images/bg10.jpeg');
+    background-repeat: no-repeat;
+      background-size: cover;
+  
+  }
+  
+  .box img{
+    display: flex;
+    width: 10%;
+    justify-content:top left;
+    align-items: baseline;
+    border-radius: 80px;
+    margin: auto;
+  }
+  
+  .button1 {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 300px;
+  }
